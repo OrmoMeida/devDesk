@@ -6,7 +6,8 @@ namespace Projeto1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            exercicios teste1 = new exercicios();
+            teste1.Ex1;
         }
     }
 }
