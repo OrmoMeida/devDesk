@@ -24,6 +24,24 @@ public class exercicios
 		Console.WriteLine("Valor a ser pago: {0:F2}", vlrPagar);
 	}
 
+	public void Ex2()
+    {
+		float pi = 3.14159;
+		float raio = float.Parse(Console.ReadLine());
+
+		float area = pi * (raio * raio);
+		Console.WriteLine("A = {area:F4}");		
+    }
+
+	public void Ex3()
+    {
+		float precos[] = { 16, 25, 20, 6.50f, 8 };
+		int opcao[] = int.Parse(Console.ReadLine().Split(' ');
+
+		float valorTotal = precos[opcao[0]] * opcao[1];
+		Console.WriteLine("Total:  R$ {valorTotal:F2}");
+	}
+
 	public exercicios()
 	{
 	}

@@ -7,7 +7,8 @@ namespace Projeto1
         static void Main(string[] args)
         {
             exercicios teste1 = new exercicios();
-            teste1.Ex1();
+            teste1.Ex2();
+            teste1.Ex3();
         }
     }
 }
