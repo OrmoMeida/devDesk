@@ -24,7 +24,7 @@ namespace listaProgramacaoEstruturada
             float raio = float.Parse(Console.ReadLine());
             float area = pi * (raio * raio);
 
-            Console.WriteLine("A = " + area);
+            Console.WriteLine("A = {0:F4}", area);
             return 0;
         }
 

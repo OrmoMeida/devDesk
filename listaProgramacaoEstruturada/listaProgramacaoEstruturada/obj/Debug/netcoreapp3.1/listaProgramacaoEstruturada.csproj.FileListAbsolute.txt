@@ -1,0 +1,14 @@
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\bin\Debug\netcoreapp3.1\listaProgramacaoEstruturada.exe
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\bin\Debug\netcoreapp3.1\listaProgramacaoEstruturada.deps.json
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\bin\Debug\netcoreapp3.1\listaProgramacaoEstruturada.runtimeconfig.json
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\bin\Debug\netcoreapp3.1\listaProgramacaoEstruturada.runtimeconfig.dev.json
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\bin\Debug\netcoreapp3.1\listaProgramacaoEstruturada.dll
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\bin\Debug\netcoreapp3.1\listaProgramacaoEstruturada.pdb
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.csproj.AssemblyReference.cache
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.AssemblyInfoInputs.cache
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.AssemblyInfo.cs
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.csproj.CoreCompileInputs.cache
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.dll
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.pdb
+C:\Users\aluno\git\devDesk\listaProgramacaoEstruturada\listaProgramacaoEstruturada\obj\Debug\netcoreapp3.1\listaProgramacaoEstruturada.genruntimeconfig.cache
