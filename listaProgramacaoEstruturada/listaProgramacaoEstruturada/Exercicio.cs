@@ -34,7 +34,7 @@ namespace listaProgramacaoEstruturada
 
             pecaValorTotal = pecaValorTotal1 + pecaValorTotal2;
 
-            Console.WriteLine("VALOR A PAGAR: R$ {.2F}", pecaValorTotal);
+            Console.WriteLine("VALOR A PAGAR: R$ {0:F2}", pecaValorTotal);
 
             return 0;
         }
