@@ -12,7 +12,7 @@ namespace listaProgramacaoEstruturada
             // Enfim, me recuso a criar tudo duas vezes
             // (acho que não tem)
             int pecaCod1, pecaQnt1;
-            float pecaValor1, pecaValorTotal1;
+            float pecaValor1, pecaValorTotal1, pecaValorTotal;
 
             int pecaCod2, pecaQnt2;
             float pecaValor2, pecaValorTotal2;
@@ -32,8 +32,9 @@ namespace listaProgramacaoEstruturada
             pecaValorTotal1 = pecaQnt1 * pecaValor1;
             pecaValorTotal2 = pecaQnt2 * pecaValor2;
 
-            Console.WriteLine("VALOR A PAGAR: R$ {.2F}", pecaValorTotal1);
-            Console.WriteLine("VALOR A PAGAR: R$ {.2F}", pecaValorTotal2);
+            pecaValorTotal = pecaValorTotal1 + pecaValorTotal2;
+
+            Console.WriteLine("VALOR A PAGAR: R$ {.2F}", pecaValorTotal);
 
             return 0;
         }
