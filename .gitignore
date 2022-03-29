@@ -1,5 +1,7 @@
-**/.vs
-**/bin
-**/obj
+**.vscode/
+**.vs/
+**bin/
+**lib/
+**obj/
 **.vs
-.vs
+***.csproj
