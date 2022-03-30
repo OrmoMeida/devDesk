@@ -3,7 +3,8 @@ Repositório para as aulas do Matioli
 2022
 
 A lista de programação estruturada está em listaProgramacaoEstruturada/listaProgramacaoEstruturada/ 
-Arquivos:
+
+<br> Arquivos:
 * **Program.cs** -> Classe main
 * **Exercicio.cs** -> Classe exercicio, com o método do exercício correspondente. 
 
