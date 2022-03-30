@@ -2,7 +2,7 @@
 Repositório para as aulas do Matioli
 2022
 
-**ame-meida**       -> Pedro Augusto Lopes Ramos de Oliveira
+**ame-meida**       -> Pedro Augusto Lopes Ramos de Oliveira <br>
 **IsabelleOrmo0**   -> Isabelle Ormo Crenonini
  
 A lista de programação estruturada está em listaProgramacaoEstruturada/listaProgramacaoEstruturada/ 
