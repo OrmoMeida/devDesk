@@ -9,10 +9,9 @@ namespace listaProgramacaoEstruturada
         public int Ex6()
         {
             float a, b, c; // eu vou chorar só queria um array
-            float pi = 3.14159F;
+            const float pi = 3.14159F;
 
-            string[] input = new string[3];
-            input = Console.ReadLine().Split(' ');
+            string[] input = Console.ReadLine().Split(' ');
 
             a = float.Parse(input[0]);
             b = float.Parse(input[1]);
@@ -25,6 +24,12 @@ namespace listaProgramacaoEstruturada
             float areaTrapezio = (((a + b) + 2) * c) / 2;
             float areaQuadrado = b * b;
             float areaRetangulo = a * b;
+
+            Console.WriteLine("TRIANGULO: {0:F3}", areaTriangulo);
+            Console.WriteLine("CIRCULO:  {0:F3}", areaCirculo);
+            Console.WriteLine("TRAPEZIO:  {0:F3}", areaTrapezio);
+            Console.WriteLine("QUADRADO:  {0:F3}", areaQuadrado);
+            Console.WriteLine("RETANGULO:  {0:F3}", areaRetangulo);
 
             return 0;
         }
