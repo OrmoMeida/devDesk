@@ -32,7 +32,7 @@ public class lista_EstruturaSequencial {
 
 	public void Ex2()
     {
-		float pi = 3.14159;
+		float pi = 3.14159F;
 		float raio = float.Parse(Console.ReadLine());
 
 		float area = pi * (raio * raio);
@@ -52,8 +52,11 @@ public class lista_EstruturaCondicional {
 		Console.WriteLine("[5] Suco de laranja - 300ml	- 	R$ 8,00");
 		Console.WriteLine("Opção e quantidade:  ");
 
-		float[] compra = float.Parse(Console.ReadLine().Split(' '));
-		float valorTotal;
+		string[] compraTxt = Console.ReadLine().Split(' ');
+		float[] compra = new float[2];
+		compra[0] = float.Parse(compraTxt[0]);
+		compra[1] = float.Parse(compraTxt[1]);
+		float valorTotal = 0;
 
 		// Opção usando arrays 
 		/*
@@ -77,21 +80,24 @@ public class lista_EstruturaCondicional {
 				break;
 			case 5:
 				valorTotal = compra[1] * preco[5];
+				break;
 			default:
 				Console.WriteLine("ERRO");
+				break;
 		}
+		
 		Console.WriteLine("Valor:  {0:F2}", valorTotal);
 	}
 
 	public void Ex2() {
 		Console.WriteLine("Insira os valores de 'a', 'b' e 'c':  ");		
-		float[] num = float.Parse(Console.ReadLine().Split(' '));
-		float a = num[0];
-		float b = num[1];
-		float c = num[2];
-		float[] x = new float[2];
+		string[] num = Console.ReadLine().Split(' ');
+		double a = double.Parse(num[0]);
+		double b = double.Parse(num[1]);
+		double c = double.Parse(num[2]);
+		double[] x = new double[2];
 
-		float delta = (b * b) - 4 * a * c;
+		double delta = (b * b) - 4 * a * c;
 
 		if (a != 0 && delta > 0) {
 			x[0] = (-b - Math.Sqrt(delta)) / 2 * a;
@@ -108,10 +114,10 @@ public class lista_EstruturaCondicional {
 public class lista_EstruturaRepetitiva {
 	public void Ex1() {
 		Console.WriteLine("Digite sua senha:  \n\n");
-		string senha;
+		string senha = "";
 
 		while (!senha.Equals("cotil")) {
-			senha = Console.ReadLine;
+			senha = Console.ReadLine();
 			if (!senha.Equals("cotil")) {
 				Console.WriteLine("Senha inválida!"); 
 			} else {
